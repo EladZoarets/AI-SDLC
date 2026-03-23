@@ -1,29 +1,29 @@
-# 🚀 AI-Powered Fullstack Orchestrator
+# 🤖 Cursor AI-SDLC Framework: The Next Gen Workflow
 
-This repository is powered by a custom **AI-SDLC Framework**. It uses specialized AI Agents and structured Commands to ensure high-quality, architecturally sound code with automated "Chaos" testing.
+> **Stop asking AI to write code. Start managing AI to build systems.**
 
-## 🧠 The Framework (Agents)
-- **@product**: Defines requirements and Acceptance Criteria.
-- **@architect**: Designs the system, draws Mermaid diagrams, and scores complexity.
-- **@manager**: Breaks down the design into atomic Jira-style tasks.
-- **@developer**: Implements React (Vite/TS) and Python (FastAPI) code.
-- **@chaos**: Stress-tests the implementation for edge cases and regressions.
+This repository is a production-ready template for **Autonomous Software Development Life Cycle (SDLC)** within Cursor. It transforms the AI from a "Chatbot" into a structured **Engineering Team**.
 
-## 🛠️ Custom Commands
-Use these commands in the Cursor Chat to trigger the pipeline:
+## 🛠️ The Core Engine
+This framework is built on three pillars:
 
-| Command | Action | Template Used |
+1. **Role-Based Agents**: Specific personas (@architect, @chaos, etc.) with conflicting interests to ensure quality through tension.
+2. **The Gatekeeper Logic**: A mandatory scoring system that prevents AI from executing complex tasks without human sign-off.
+3. **Chaos Auditing**: A dedicated stage for destructive testing, ensuring no code is merged without an edge-case audit.
+
+## 🕹️ Operational Commands
+| Command | Intent | Role |
 | :--- | :--- | :--- |
-| `/plan` | Generate requirements & drawings | `plan_template.md` |
-| `/score` | Evaluate complexity (Gatekeeper) | `score_template.md` |
-| `/execute` | Implement code & unit tests | (Dynamic) |
-| `/chaos` | Audit code for bugs/edge cases | `chaos_report.md` |
-| `/review` | Final PR summary & sign-off | `review_template.md` |
-| `/orchestrate` | **Run the entire pipeline end-to-end** | All of the above |
+| `/plan` | Architecture & Requirements | Product + Architect |
+| `/score` | Complexity Guardrail (1-5) | Architect |
+| `/execute` | Implementation & Unit Tests | Developer |
+| `/chaos` | Destructive Audit & Edge Cases | Chaos Agent |
+| `/review` | Final Sign-off & PR Generation | Architect |
 
-## 🚀 Getting Started
-1. **Initialize Workspace:**
-   ```bash
-   git init
-   npm install # For React/Vite
-   pip install -r requirements.txt # For Python
+## 🚀 Deployment
+1. Clone this repo into your `.cursor` folder.
+2. Update `project-context.md` with your stack.
+3. Run `@orchestrate [feature]` and watch the machine work.
+
+---
+*Developed for Senior Engineering Managers and AI Guild Leads.*
