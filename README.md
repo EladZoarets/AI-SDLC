@@ -1,4 +1,4 @@
-# 🤖 Amp AI-SDLC Framework: The Next Gen Workflow
+# 🤖 AI-SDLC Framework: The Next Gen Workflow
 
 > **Stop asking AI to write code. Start managing AI to build systems.**
 
